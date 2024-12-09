@@ -1,0 +1,56 @@
+* SPICE3 file created from dff1.ext - technology: scmos
+
+.option scale=90n
+
+M1000 C clk G Gnd nfet w=6 l=2
++  ad=36p pd=24u as=29.999998p ps=22u
+M1001 G B gnd Gnd nfet w=6 l=2
++  ad=36p pd=24u as=29.999998p ps=22u
+M1002 B A E Gnd nfet w=6 l=2
++  ad=36p pd=24u as=29.999998p ps=22u
+M1003 vdd D F vdd pfet w=12 l=2
++  ad=59.999996p pd=34u as=59.999996p ps=34u
+M1004 E clk gnd Gnd nfet w=6 l=2
++  ad=36p pd=24u as=29.999998p ps=22u
+M1005 F clk A vdd pfet w=12 l=2
++  ad=59.999996p pd=34u as=59.999996p ps=34u
+M1006 vdd B C vdd pfet w=6 l=2
++  ad=29.999998p pd=22u as=29.999998p ps=22u
+M1007 A D gnd Gnd nfet w=3 l=2
++  ad=19p pd=18u as=19p ps=18u
+M1008 Q C vdd vdd pfet w=6 l=2
++  ad=29.999998p pd=22u as=29.999998p ps=22u
+M1009 vdd clk B vdd pfet w=6 l=2
++  ad=29.999998p pd=22u as=29.999998p ps=22u
+M1010 Q C gnd Gnd nfet w=3 l=2
++  ad=19p pd=18u as=19p ps=18u
+C0 gnd D 0.028273f
+C1 Q gnd 0.030928f
+C2 F A 0.041238f
+C3 vdd A 0.011011f
+C4 C gnd 0.041884f
+C5 vdd B 0.110159f
+C6 C Q 0.062171f
+C7 gnd G 0.03299f
+C8 B E 0.024743f
+C9 vdd D 0.08284f
+C10 C G 0.024743f
+C11 vdd Q 0.110448f
+C12 C vdd 0.103144f
+C13 gnd E 0.03299f
+C14 A D 0.019725f
+C15 F clk 0.017673f
+C16 A gnd 0.041238f
+C17 vdd clk 0.083552f
+C18 vdd F 0.049206f
+C19 clk 0 0.490504f **FLOATING
+C20 D 0 0.2767f **FLOATING
+C21 E 0 0.056386f **FLOATING
+C22 G 0 0.056386f **FLOATING
+C23 gnd 0 0.938691f **FLOATING
+C24 A 0 0.360696f **FLOATING
+C25 F 0 0.024877f **FLOATING
+C26 Q 0 0.097838f **FLOATING
+C27 B 0 0.707796f **FLOATING
+C28 vdd 0 5.55324f **FLOATING
+C29 C 0 0.444956f **FLOATING
